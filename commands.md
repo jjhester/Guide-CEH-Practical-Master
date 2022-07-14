@@ -12,3 +12,9 @@
 |`nmap -sT 10.10.12.9`| TCP Connect (3-Way)|
 |`nmap -sS 10.10.12.9`| TCP SYN (RST)|
 |`nmap -sU 10.10.12.9`| UDP|
+|`sudo nmap -sN 10.10.12.9`| TCP Null|
+|`sudo nmap -sF 10.10.12.9`| TCP FIN |
+|`sudo nmap -sX 10.10.12.9`| TCP XMas|
+|`sudo nmap -sM 10.10.12.9`| TCP Maimon|
+|`sudo nmap -sA 10.10.12.9`| TCP ACK (Firewall)|
+|`sudo nmap -sW 10.10.12.9`| TCP Window (Firewall)|
