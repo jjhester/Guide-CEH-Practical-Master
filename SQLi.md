@@ -21,4 +21,5 @@
 * `') or ('1'='1--`
 *  Login as different user (SM*)
   `UNION SELECT 1, 'anotheruser', 'doesnt matter', 1--`
+
 More at https://www.invicti.com/blog/web-security/sql-injection-cheat-sheet/
