@@ -1,5 +1,6 @@
 # Scanning Commands
 ## NMAP
+### Common Commands
 | Commmand | Scan Type|
 |----------|----------|
 |`sudo nmap -PR -sn 10.10.12.13/29`| ARP|
@@ -18,3 +19,9 @@
 |`sudo nmap -sM 10.10.12.9`| TCP Maimon|
 |`sudo nmap -sA 10.10.12.9`| TCP ACK (Firewall)|
 |`sudo nmap -sW 10.10.12.9`| TCP Window (Firewall)|
+### Additional Switches
+| Switch | Effect|
+|--------|-------|
+|`-p-`| All port scan (beyond standard)|
+|`-sV`| Service versioning|
+|`-sC`| Service versioning with safe scripts|
