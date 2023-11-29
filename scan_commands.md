@@ -23,5 +23,6 @@
 | Switch | Effect|
 |--------|-------|
 |`-p-`| All port scan (beyond standard)|
-|`-sV`| Service versioning|
-|`-sC`| Service versioning with safe scripts|
+|`-sC`| All default scripts (intrusive)|
+|`-sV`| Service versioning only|
+
