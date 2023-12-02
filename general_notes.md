@@ -8,6 +8,10 @@
 5. *Post-exploitation* - Pivoting to other targets, gaining additional information as a privileged user, covering tracks and reporting the results
 
 ### Knowledge Tidbits
+* `find` and `locate` are useful Linux tools for finding files.
+> `find -name "flag*"` will find all files that begin with the text flag.
+> `find /usr -type d -name "secret"` will find all directories in \usr that are named secret.
+
 * ffuf, dirb, and gobuster are web discovery automation tools that take common wordlists. They can discover directories, files, usernames, or subdomains.
 > For example, `gobuster dir --url http://MACHINE_IP/ -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt` will enumerate the directories/files on the target web server.
 
