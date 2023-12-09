@@ -12,12 +12,13 @@ Port 161
 * `nmap -sU` required because it relies on UDP.
 * `snmp-sysdescr.nse` on nmap will enumerate SNMP information.
 * `snmp-processes.nse` to get running processes on the specific device(s).
-* `snmap-check` command also to get running processes on the specific device(s).
+* `snmp-check` command also to get running processes on the specific device(s).
 * `snmp-interfaces.nse` to the detected network interfaces on the specific device(s).
   
 ### SMB
 Port 445
 * `smb-enum-shares` on nmap will retun network shares.
+* `smb-enum-users` on nmap will retun network shares.
 
 ### LDAP
 Port 389
