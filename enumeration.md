@@ -37,6 +37,6 @@ Port 25
 ### RDP
 Port 3389
 * `rdp-enum-encryption` on nmap to determine encryption levels.
-*  `rdp-scanner` available in metasploit to get possible exploits.
+*  `rdp-scanner` available in metasploit to find rdp running on all ports.
 *  `rdesktop` or `xfreerdp` to connect to remote desktop from Linux.
 *  `rdp-check` from Impacket to check if valid credentials.
