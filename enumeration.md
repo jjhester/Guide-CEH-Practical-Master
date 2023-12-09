@@ -17,8 +17,10 @@ Port 161
   
 ### SMB
 Port 445
-* `smb-enum-shares` on nmap will retun network shares.
-* `smb-enum-users` on nmap will retun network shares.
+* `smb-enum-shares` on nmap will retun network shares for Windows.
+* `smb-enum-users` on nmap will retun network users for Windows.
+* `smb-enum-groups` on nmap will retun network workgroups for Windows.
+* `smbclient` is a Linux tool to access Windows shares.
 
 ### LDAP
 Port 389
@@ -32,3 +34,6 @@ Port 2049
 Port 25
 * `smtp-enum-users.nse` on nmap to enumerate SMTP users
 
+### RDP
+Port 3389
+* 
