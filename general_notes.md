@@ -9,7 +9,9 @@
 
 ### Knowledge Tidbits
 * `find` and `locate` are useful Linux tools for finding files.
+  
 > `find -name "flag*"` will find all files that begin with the text flag.
+
 > `find /usr -type d -name "secret"` will find all directories in \usr that are named secret.
 
 * ffuf, dirb, and gobuster are web discovery automation tools that take common wordlists. They can discover directories, files, usernames, or subdomains.
