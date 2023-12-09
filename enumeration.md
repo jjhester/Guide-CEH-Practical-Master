@@ -1,6 +1,7 @@
 ## Enueration
 
 ### NetBIOS
+Ports 137 - 139
 * `nbtstat` is a Windows tool for enumeration of NetBIOS-based shares on DOS and Windows machines.
 * `nbtstat -a [ip]` will find all Windows shares on a target machine.
 * `nbtstat -c` will show the NetBIOS cache.
